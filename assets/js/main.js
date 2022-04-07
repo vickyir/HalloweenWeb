@@ -49,12 +49,12 @@ function scrollHeader(){
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== NEW SWIPER ===============*/
-let newSwiper = new Swiper(".new-swiper", {
-    centeredSlides: true,
-    slidesPerView: "auto",
-    loop: 'true',
-    spaceBetween: 16,
-});
+// let newSwiper = new Swiper(".new-swiper", {
+//     centeredSlides: true,
+//     slidesPerView: "auto",
+//     loop: 'true',
+//     spaceBetween: 16,
+// });
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
@@ -93,7 +93,7 @@ const sr = ScrollReveal({
     // reset: true
 })
 
-sr.reveal(`.home-swiper, .new-swiper, .newsletter__container`)
-sr.reveal(`.category__data, .trick__content, .footer__content`,{interval: 100})
-sr.reveal(`.about__data, .discount__img`,{origin: 'left'})
-sr.reveal(`.about__img, .discount__data`,{origin: 'right'})
+// sr.reveal(`.home-swiper, .new-swiper, .newsletter__container`)
+// sr.reveal(`.category__data, .trick__content, .footer__content`,{interval: 100})
+// sr.reveal(`.about__data, .discount__img`,{origin: 'left'})
+// sr.reveal(`.about__img, .discount__data`,{origin: 'right'})
